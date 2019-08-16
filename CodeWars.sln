@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6BC22663-3A59-4303-A235-418DD83FBEF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars", "src\CodeWars\CodeWars.csproj", "{51C96189-0823-46B4-8BE8-F22A6EC21460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2406BAED-E656-42F4-A838-6EB5B0517ECB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars.UnitTests", "test\CodeWars.UnitTests\CodeWars.UnitTests.csproj", "{4D897374-7699-4405-B6B0-824A13752FF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49DDD072-E75B-4AA1-81BF-9FC73B92BF13}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C96189-0823-46B4-8BE8-F22A6EC21460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C96189-0823-46B4-8BE8-F22A6EC21460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C96189-0823-46B4-8BE8-F22A6EC21460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C96189-0823-46B4-8BE8-F22A6EC21460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D897374-7699-4405-B6B0-824A13752FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D897374-7699-4405-B6B0-824A13752FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D897374-7699-4405-B6B0-824A13752FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D897374-7699-4405-B6B0-824A13752FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51C96189-0823-46B4-8BE8-F22A6EC21460} = {6BC22663-3A59-4303-A235-418DD83FBEF3}
+		{4D897374-7699-4405-B6B0-824A13752FF0} = {2406BAED-E656-42F4-A838-6EB5B0517ECB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10D456BF-D84D-4ACB-8559-31467AFD2FB4}
+	EndGlobalSection
+EndGlobal
