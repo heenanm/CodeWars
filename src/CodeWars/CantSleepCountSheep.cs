@@ -6,7 +6,7 @@ namespace CodeWars
     {
         public static string CountSheep(int n)
         {
-            StringBuilder sheepCount = new StringBuilder();
+            var sheepCount = new StringBuilder();
 
             for (int i = 1; i <= n; i++)
             {
@@ -17,3 +17,5 @@ namespace CodeWars
         }
     }
 }
+
+
