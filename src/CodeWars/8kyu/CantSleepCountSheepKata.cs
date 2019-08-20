@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class CantSleepCountSheep
+    public class CantSleepCountSheepKata
     {
         public static string CountSheep(int n)
         {

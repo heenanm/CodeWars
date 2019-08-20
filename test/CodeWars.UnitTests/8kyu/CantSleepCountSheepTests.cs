@@ -9,7 +9,7 @@ namespace CodeWars.UnitTests
         [TestCase(3, "1 sheep...2 sheep...3 sheep...")]
         public void CountSheep(int n, string expected)
         {
-            var actual = CantSleepCountSheep.CountSheep(n);
+            var actual = CantSleepCountSheepKata.CountSheep(n);
 
             Assert.AreEqual(expected, actual);
         }
