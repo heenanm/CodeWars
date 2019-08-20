@@ -12,7 +12,7 @@ namespace CodeWars.UnitTests
         [TestCase(2, 2, 2, 8)]
         public void LargestExpression(int a, int b, int c, int expected)
         {
-            var actual = ExpressionsMatter.LargestExpression(a, b, c);
+            var actual = ExpressionsMatterKata.LargestExpression(a, b, c);
 
             Assert.AreEqual(expected, actual);
         }

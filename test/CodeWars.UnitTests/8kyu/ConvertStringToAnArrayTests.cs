@@ -8,7 +8,7 @@ namespace CodeWars.UnitTests
         [TestCase("I love arrays they are my favorite", new string[] { "I", "love", "arrays", "they", "are", "my", "favorite" })]
         public void StringToArray(string str, string[] expected)
         {
-            var actual = ConvertStringToAnArray.StringToArray(str);
+            var actual = ConvertStringToAnArrayKata.StringToArray(str);
 
             Assert.AreEqual(expected, actual);
         }

@@ -9,7 +9,7 @@ namespace CodeWars.UnitTests
         [TestCase(10, "1010101010")]
         public void Stringy(int size, string expected)
         {
-            var actual = StringyStrings.Stringy(size);
+            var actual = StringyStringsKata.Stringy(size);
 
             Assert.AreEqual(expected, actual);
         }

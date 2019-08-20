@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class ExpressionsMatter
+    public class ExpressionsMatterKata
     {
         public static int LargestExpression(int a, int b, int c)
         {

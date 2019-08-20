@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-    public class DifferenceOfVolumesOfCuboids
+    public class DifferenceOfVolumesOfCuboidsKata
     {
         public static int FindDifference(int[] a, int[] b)
         {

@@ -7,7 +7,7 @@ namespace CodeWars.UnitTests
         [TestCase(3, "*", "***")]
         public void RepeatStr(int n, string s, string expected)
         {
-            var actual = StringRepeat.RepeatStr(n, s);
+            var actual = StringRepeatKata.RepeatStr(n, s);
 
             Assert.AreEqual(expected, actual);
         }

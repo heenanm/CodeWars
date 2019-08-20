@@ -11,7 +11,7 @@ namespace CodeWars.UnitTests
         [TestCase(new int[] { 15, 20, 25 }, new int[] { 10, 30, 25 }, 0)]
         public void FindDifference(int[] a, int[] b, int expected)
         {
-            var actual = DifferenceOfVolumesOfCuboids.FindDifference(a, b);
+            var actual = DifferenceOfVolumesOfCuboidsKata.FindDifference(a, b);
 
             Assert.AreEqual(expected, actual);
         }

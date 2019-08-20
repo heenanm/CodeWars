@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-    public class ConvertStringToAnArray
+    public class ConvertStringToAnArrayKata
     {
         public static string[] StringToArray(string str)
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodeWars
 {
-    public class StringyStrings
+    public class StringyStringsKata
     {
         public static string Stringy(int size)
         {

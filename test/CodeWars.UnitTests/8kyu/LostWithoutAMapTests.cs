@@ -9,7 +9,7 @@ namespace CodeWars.UnitTests
         [TestCase(new[] { 2, 2, 2, 2, 2, 2 }, new[] { 4, 4, 4, 4, 4, 4 })]
         public void Maps(int[] x, int[] expected)
         {
-            var actual = LostWithoutAMap.Maps(x);
+            var actual = LostWithoutAMapKata.Maps(x);
 
             Assert.AreEqual(expected, actual);
         }

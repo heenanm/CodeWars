@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class YouOnlyNeedOne
+    public class YouOnlyNeedOneKata
     {
         public static bool Check(object[] a, object x)
         {

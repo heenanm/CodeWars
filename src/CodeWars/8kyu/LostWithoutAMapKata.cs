@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class LostWithoutAMap
+    public class LostWithoutAMapKata
     {
         public static int[] Maps(int[] x)
         {

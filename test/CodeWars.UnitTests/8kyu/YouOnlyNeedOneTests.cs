@@ -10,7 +10,7 @@ namespace CodeWars.UnitTests
         [TestCase(new object[] { "what", "a", "great", "kata" },"kat" , false)]
         public void Check(object[] a, object x, bool expected)
         {
-            var actual = YouOnlyNeedOne.Check(a, x);
+            var actual = YouOnlyNeedOneKata.Check(a, x);
 
             Assert.AreEqual(expected, actual);
         }

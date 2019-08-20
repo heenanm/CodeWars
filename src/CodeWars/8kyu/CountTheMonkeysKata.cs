@@ -4,14 +4,14 @@ using System.Text;
 
 namespace CodeWars
 {
-    public class CountByX
+    public class CountTheMonkeysKata
     {
-        public static int[] CountBy(int x, int n)
+        public static int[] MonkeyCount(int n)
         {
             var countArray = new int[n];
             for (int i = 0; i < n; i++)
             {
-                countArray[i] = (i + 1) * x;
+                countArray[i] = i + 1;
             }
             return countArray;
         }

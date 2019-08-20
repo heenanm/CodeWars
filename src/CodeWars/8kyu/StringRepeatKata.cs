@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class StringRepeat
+    public class StringRepeatKata
     {
         public static string RepeatStr(int n, string s)
         {

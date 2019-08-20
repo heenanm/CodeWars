@@ -8,7 +8,7 @@ namespace CodeWars.UnitTests
         [TestCase(new double[] { }, 0)]
         public void SumArray(double[] array, double expected)
         {
-            var actual = SumArrays.SumArray(array);
+            var actual = SumArraysKata.SumArray(array);
 
             Assert.AreEqual(expected, actual);
         }

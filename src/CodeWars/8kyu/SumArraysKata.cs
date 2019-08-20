@@ -2,7 +2,7 @@
 
 namespace CodeWars
 {
-    public class SumArrays
+    public class SumArraysKata
     {
         public static double SumArray(double[] array)
         {
