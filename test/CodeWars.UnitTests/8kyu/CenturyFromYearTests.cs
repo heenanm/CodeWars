@@ -8,9 +8,9 @@ namespace CodeWars.UnitTests
         [TestCase(1900, 19)]
         [TestCase(1601, 17)]
         [TestCase(2000, 20)]
-        public void CenturyFromSpecificYear(int year, int expected)
+        public void CenturyFromYear(int year, int expected)
         {
-            var actual = CenturyFromYear.СenturyFromYear(year);
+            var actual = CenturyFromYearKata.СenturyFromYear(year);
 
             Assert.AreEqual(expected, actual);
         }

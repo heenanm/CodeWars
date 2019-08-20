@@ -11,7 +11,7 @@ namespace CodeWars.UnitTests
         [TestCase("CATA", "GTAT")]
         public void MakeComplement(string dna, string expected)
         {
-            var actual = ComplementaryDna.MakeComplement(dna);
+            var actual = ComplementaryDnaKata.MakeComplement(dna);
 
             Assert.AreEqual(expected, actual);
         }
