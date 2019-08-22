@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace CodeWars.UnitTests._7kyu
 {
-    internal class BabySharkLyricsGeneratorTests
+    public class BabySharkLyricsGeneratorTests
     {
         [Test]
         public void BabySharkLyrics()

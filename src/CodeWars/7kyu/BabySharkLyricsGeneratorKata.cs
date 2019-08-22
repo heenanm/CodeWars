@@ -4,15 +4,23 @@
     {
         public static string BabySharkLyrics()
         {
-            var b = "Baby";
-            var s = " shark";
-            var d = " doo";
-            var m = "Mommy";
-            var D = "Daddy";
-            var g = "Grand";
-            var l = "Let's go hunt";
-
-            return $"{b}{s},{d}{d}{d}{d}{d}{d}\n{b}{s},{d}{d}{d}{d}{d}{d}\n{b}{s},{d}{d}{d}{d}{d}{d}\n{b}{s}!\n";
+            string G = "Grand", S = " shark", D = " doo", s = "";
+            var x = new[] {"Baby" + S, "Mommy" + S, "Daddy" + S, G + "ma" + S, G + "pa" + S, "Let's go hunt"};
+            for (var i = 0; i < 6; i++)
+            {
+                for (var j = 0; j < 3; j++)
+                    s += x[i] + "," + D + D + D + D + D + D + "\n";
+                s += x[i] + "!\n";
+            }
+            return s + "Run away,…\n";
         }
     }
 }
+
+
+//string G = "Grand", S = " shark", D = " doo", s = "";
+//foreach(var _ in new[]{"Baby"+S,"Mommy"+S,"Daddy"+S,G+"ma"+S,G+"pa"+S,"Let's go hunt"}) {
+//var b = _ + "," + D + D + D + D + D + D + "\n";
+//s+=b+b+b+_+"!\n";
+//}
+//return s+"Run away,…\n";
