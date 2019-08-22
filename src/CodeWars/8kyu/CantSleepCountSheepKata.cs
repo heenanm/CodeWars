@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CodeWars
+namespace CodeWars._8kyu
 {
     public class CantSleepCountSheepKata
     {
@@ -8,14 +8,9 @@ namespace CodeWars
         {
             var sheepCount = new StringBuilder();
 
-            for (int i = 1; i <= n; i++)
-            {
-                sheepCount.Append(i.ToString() + " sheep...");
-            }
+            for (var i = 1; i <= n; i++) sheepCount.Append(i + " sheep...");
 
             return sheepCount.ToString();
         }
     }
 }
-
-

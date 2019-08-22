@@ -1,11 +1,12 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8kyu;
+using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8kyu
 {
-    class ConvertStringToAnArrayTests
+    internal class ConvertStringToAnArrayTests
     {
-        [TestCase("Robin Singh", new string[] { "Robin", "Singh" })]
-        [TestCase("I love arrays they are my favorite", new string[] { "I", "love", "arrays", "they", "are", "my", "favorite" })]
+        [TestCase("Robin Singh", new[] {"Robin", "Singh"})]
+        [TestCase("I love arrays they are my favorite", new[] {"I", "love", "arrays", "they", "are", "my", "favorite"})]
         public void StringToArray(string str, string[] expected)
         {
             var actual = ConvertStringToAnArrayKata.StringToArray(str);

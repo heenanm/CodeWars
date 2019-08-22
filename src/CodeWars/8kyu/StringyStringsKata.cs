@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
-namespace CodeWars
+namespace CodeWars._8kyu
 {
     public class StringyStringsKata
     {
@@ -10,17 +8,11 @@ namespace CodeWars
         {
             var result = new StringBuilder();
 
-            for (int i = 1; i <= size; i++)
-            {
+            for (var i = 1; i <= size; i++)
                 if (i % 2 != 0)
-                {
                     result.Append("1");
-                }
                 else
-                {
                     result.Append("0");
-                }
-            }
             return result.ToString();
         }
     }

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CodeWars
+﻿namespace CodeWars._8kyu
 {
     public class ConvertStringToAnArrayKata
     {
         public static string[] StringToArray(string str)
         {
-            string[] words = str.Split(' ');
+            var words = str.Split(' ');
             return words;
         }
     }

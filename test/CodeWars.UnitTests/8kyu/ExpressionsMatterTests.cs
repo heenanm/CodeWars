@@ -1,8 +1,9 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8kyu;
+using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8kyu
 {
-    class ExpressionsMatterTests
+    internal class ExpressionsMatterTests
     {
         [TestCase(2, 1, 2, 6)]
         [TestCase(1, 1, 1, 3)]

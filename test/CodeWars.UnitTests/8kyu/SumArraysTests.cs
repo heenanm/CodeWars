@@ -1,10 +1,11 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8kyu;
+using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8kyu
 {
-    class SumArraysTests
+    internal class SumArraysTests
     {
-        [TestCase(new double[] { 1, 5.2, 4, 0, -1 }, 9.2)]
+        [TestCase(new[] {1, 5.2, 4, 0, -1}, 9.2)]
         [TestCase(new double[] { }, 0)]
         public void SumArray(double[] array, double expected)
         {

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CodeWars
+namespace CodeWars._8kyu
 {
     public class LostWithoutAMapKata
     {

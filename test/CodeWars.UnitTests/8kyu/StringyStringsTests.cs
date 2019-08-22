@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8kyu;
+using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8kyu
 {
     public class StringyStringsTests
     {

@@ -1,8 +1,9 @@
-﻿using NUnit.Framework;
+﻿using CodeWars._8kyu;
+using NUnit.Framework;
 
-namespace CodeWars.UnitTests
+namespace CodeWars.UnitTests._8kyu
 {
-    class CenturyFromYearTests
+    internal class CenturyFromYearTests
     {
         [TestCase(1705, 18)]
         [TestCase(1900, 19)]
