@@ -6,8 +6,7 @@ namespace CodeWars._8kyu
     {
         public static double SumArray(double[] array)
         {
-            var sum = array.Sum();
-            return sum;
+            return array.Sum();
         }
     }
 }
