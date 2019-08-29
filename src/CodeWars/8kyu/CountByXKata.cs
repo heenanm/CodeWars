@@ -10,6 +10,7 @@
             {
                 countArray[i] = (i + 1) * x;
             }
+
             return countArray;
         }
     }
