@@ -6,9 +6,7 @@
         {
             var sub = body[body.Length - 1];
 
-            if (sub.ToString() == tail)
-                return true;
-            return false;
+            return sub.ToString() == tail;
         }
     }
 }
