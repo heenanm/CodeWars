@@ -8,7 +8,10 @@ namespace CodeWars._8kyu
         {
             var sheepCount = new StringBuilder();
 
-            for (var i = 1; i <= n; i++) sheepCount.Append(i + " sheep...");
+            for (var i = 1; i <= n; i++)
+            {
+                sheepCount.Append(i + " sheep...");
+            }
 
             return sheepCount.ToString();
         }
