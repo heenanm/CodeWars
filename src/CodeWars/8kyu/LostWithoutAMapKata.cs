@@ -6,8 +6,7 @@ namespace CodeWars._8kyu
     {
         public static int[] Maps(int[] x)
         {
-            var doubleX = x.Select(i => i * 2).ToArray();
-            return doubleX;
+            return x.Select(i => i * 2).ToArray();
         }
     }
 }
