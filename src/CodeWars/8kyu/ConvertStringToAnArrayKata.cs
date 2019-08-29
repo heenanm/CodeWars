@@ -4,8 +4,7 @@
     {
         public static string[] StringToArray(string str)
         {
-            var words = str.Split(' ');
-            return words;
+            return str.Split(' ');
         }
     }
 }
